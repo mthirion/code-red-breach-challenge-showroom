@@ -1,0 +1,40 @@
+---
+type: showroom
+
+# Set the left column width to 30%
+default_width: 30
+# Persist the URL state so browser refresh doesn't reset the UI
+persist_url_state: true
+
+view_switcher:
+  enabled: true
+  default_mode: split
+
+tabs:
+  # CTF Dashboard - Mission tracking and leaderboard
+  - name: CTF Dashboard
+    url: 'https://ctfd-leaderboard.${DOMAIN}/challenges'
+
+  # OpenShift Console
+  - name: OpenShift Console
+    url: 'https://console-openshift-console.${DOMAIN}'
+
+  # Red Hat Advanced Cluster Security
+  - name: ACS
+    url: 'https://central-stackrox.${DOMAIN}'
+
+  # OpenShift GitOps (ArgoCD)
+  - name: GitOps
+    url: 'https://openshift-gitops-server-openshift-gitops.${DOMAIN}'
+
+  # Gitea - Source Code
+  - name: Gitea
+    url: 'https://gitea.${DOMAIN}/gitea/customers-app.git'
+
+  # Base64 Decoder Tool
+  - name: Base64 Decoder
+    url: 'https://www.base64decode.org/'
+
+  # REST Client Tool
+  - name: REST Client
+    url: 'https://reqbin.com/'
