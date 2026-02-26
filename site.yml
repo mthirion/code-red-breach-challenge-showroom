@@ -1,0 +1,27 @@
+site:
+  title: Code Red Breach Challenge - DevSecOps CTF on OpenShift
+  url: https://github.com/rhpds/code-red-breach-challenge-showroom
+  start_page: modules::index.adoc
+
+content:
+  sources:
+    - url: .
+      start_path: content
+
+ui:
+  bundle:
+    url: https://github.com/rhpds/rhdp_showroom_theme/releases/download/patternfly-6/ui-bundle.zip
+    snapshot: true
+  supplemental_files:
+    - path: ./content/supplemental-ui
+
+antora:
+  extensions:
+    - '@sntke/antora-mermaid-extension'
+
+asciidoc:
+  attributes:
+    showroom-collection-version: v1.5.2
+
+output:
+  dir: ./www

@@ -1,0 +1,61 @@
+= Code Red Breach Challenge - DevSecOps CTF on OpenShift
+
+A Capture The Flag (CTF) game designed as a hands-on security learning experience for Red Hat Showroom, built with https://antora.org[Antora].
+
+== About This Lab
+
+This lab simulates a real-world security breach scenario where participants take on the role of a DevSecOps expert investigating a compromised application on OpenShift. Players must trace back the hacker's actions through 4 missions, each revealing security vulnerabilities in the platform and deployment pipeline.
+
+*Key Features:*
+
+* Interactive CTF Dashboard for mission tracking and leaderboard
+* Integration with Red Hat Advanced Cluster Security (RHACS)
+* OpenShift GitOps (ArgoCD) investigation scenarios
+* Gitea source code analysis
+* Real-world DevSecOps security patterns
+
+*Points System:*
+
+* Mission 1: 100 points
+* Mission 2: 150 points
+* Mission 3: 80 points
+* Mission 4: 240 points
+
+Missions must be completed in order, and hints are available at a small point cost.
+
+== Quick Start - Local Preview
+
+Clone this repo and preview locally:
+
+[source,sh]
+----
+podman run --rm --name antora -v $PWD:/antora -p 8080:8080 -i -t ghcr.io/juliaaano/antora-viewer
+----
+
+On SELinux systems, append `:z` to the volume mount.
+
+Visit http://localhost:8080 to view the lab guide.
+
+== Content Structure
+
+The lab includes:
+
+* *Mission Briefing* - Introduction to the security scenario and tools access
+* *Architecture* - High-level component architecture and pipeline rules
+* *Missions 1-4* - Available through the CTF Dashboard upon completion of each stage
+
+Edit content in `content/modules/ROOT/pages/`
+
+== Technologies Covered
+
+* OpenShift Container Platform
+* Red Hat Advanced Cluster Security for Kubernetes (RHACS)
+* OpenShift GitOps (ArgoCD)
+* Tekton Pipelines
+* Gitea
+* Red Hat SSO / Keycloak
+* DevSecOps best practices
+
+== Template Credit
+
+Built on the https://github.com/rhpds/showroom_template_nookbag[Showroom Template Nookbag] with the Red Hat Demo Platform UI Bundle.
