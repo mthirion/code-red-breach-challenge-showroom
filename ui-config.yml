@@ -29,7 +29,7 @@ tabs:
 
   # Gitea - Source Code
   - name: Gitea
-    url: 'https://gitea.${DOMAIN}/gitea/customers-app.git'
+    url: 'https://gitea.${DOMAIN}'
 
   # Base64 Decoder Tool
   - name: Base64 Decoder
