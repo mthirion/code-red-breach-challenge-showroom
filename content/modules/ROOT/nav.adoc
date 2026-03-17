@@ -1,2 +1,5 @@
-* xref:module-01.adoc[Missions]
-* xref:module-02.adoc[Architecture]
+* xref:Briefing.adoc[Briefing]
+* xref:Components.adoc[Component architecture]
+* xref:Pipeline.adoc[Pipeline architecture]
+* xref:Vault.adoc[Vault ans Secrets]
+* xref:Employee.adoc[Employee API Contract]
