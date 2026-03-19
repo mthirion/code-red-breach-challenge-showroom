@@ -1,0 +1,18 @@
+// Standard Workshop Attributes
+:lab_name: Code Red: The Breach Challenge
+
+// Version placeholders - will be replaced at deployment
+:ocp_version: 4.17
+
+// User info placeholders - Showroom replaces these at runtime
+// DO NOT hardcode actual values - they come from deployment
+:user: REPLACE_WITH_USERINFO
+:password: REPLACE_WITH_USERINFO
+:console_url: REPLACE_WITH_USERINFO
+:openshift_cluster_ingress_domain: REPLACE_WITH_USERINFO
+:gitea_console_url: REPLACE_WITH_USERINFO
+
+// Documentation links
+:doc_openshift_api: https://docs.redhat.com/en/documentation/openshift_container_platform/4.17/html/security_apis/secret-v1
+:doc_spiffe: https://spiffe.io/docs/latest/spire-about/spire-concepts/
+:doc_acs: https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.6/html/operating/manage-network-policies#network-graph-20-view_manage-network-policies

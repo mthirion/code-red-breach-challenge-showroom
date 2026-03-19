@@ -9,6 +9,8 @@ asciidoc:
     lab_name: "Code Red: The Breach Challenge"
     release-version: main
     page-pagination: true
+    # Include shared attributes file
+    page-attributes: attributes.adoc
     doc_openshift_api: https://docs.redhat.com/en/documentation/openshift_container_platform/4.17/html/security_apis/secret-v1
     doc_spiffe: https://spiffe.io/docs/latest/spire-about/spire-concepts/
     doc_acs: https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.6/html/operating/manage-network-policies#network-graph-20-view_manage-network-policies

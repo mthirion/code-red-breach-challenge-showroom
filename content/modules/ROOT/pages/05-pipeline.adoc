@@ -1,0 +1,28 @@
+= Pipeline architecture
+:imagesdir: ../assets/images/
+
+== Components
+
+Since last year's security issue, the pipeline security was re-enforced, and new standards emerged:
+
+1. All pipelines are automated and are triggered by webhooks.
+
+2. Every source code repository is private and accessible only via SSH Keys.
+
+3. All build images need to come from 'registry.access.redhat.com'
+
+
+The pipelines were configured to support those standards.
+
+image::ctf-pipeline-ssh.png[Pipeline structure,link=self,window=_blank]
+
+
+== Webhooks on Openshift
+
+The webhook mechanism is based on the Openshift Pipelines Triggers feature.
+
+image::ctf-pipeline-trigger.png[Webhook principle,link=self,window=_blank]
+
+More information and examples:
+
+https://www.redhat.com/en/blog/guide-to-openshift-pipelines-part-6-triggering-pipeline-execution-from-github[Openshift Pipeline Triggers^]
