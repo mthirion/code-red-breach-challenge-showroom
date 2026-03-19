@@ -1,7 +1,0 @@
-=  Architecture
-
-== Components
-
-The Application Platform, designed to support our applications, consists of a couple major components, described in the following high level architecture.
-
-image::hlarch.png[High Level Component Architecture, 100%, 100%]
