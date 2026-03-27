@@ -7,6 +7,8 @@ Customers is a Quarkus application exposing a REST API.
 
 It uses SmallRye and has SmallRye OpenAPI enabled.
 
+https://quarkus.io/guides/openapi-swaggerui[Quarkus OpenAPI^]
+
 
 == Calling REST Applications
 
