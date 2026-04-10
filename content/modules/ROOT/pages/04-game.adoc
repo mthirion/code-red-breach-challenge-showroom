@@ -8,10 +8,10 @@ This CTF game consists in:
 
 1. **Point Zero** mission -- Initial reconnaissance mission (optional; unlock 10 points that you can use to buy the first hints)
 1. **Main Quest** -- 6 sequential missions that unlock one by one as you progress through the quest
-2. **Side Quest** -- 5 missions that can be completed anytime in parallel to the main quest, for extra points 
+2. **Side Quest** -- 2 missions that can be completed anytime in parallel, either for pure extra points or when you're waiting for something...
 
 
-Estimated time: 2-4 hours (depending on experience level)
+Estimated time: 2 hours (depending on experience level)
 
 
 == Winning the CTF
