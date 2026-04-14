@@ -1,4 +1,4 @@
-= Security standards
+= Security Standards
 :imagesdir: ../assets/images/
 
 
