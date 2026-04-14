@@ -1,7 +1,7 @@
 = Environment
 :imagesdir: ../assets/images/
 
-Your environment main includes:
+Your environment includes:
 
 * OpenShift cluster (version {ocp_version})
 * Red Hat Advanced Cluster Security (ACS)
